@@ -31,4 +31,6 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 ## Diskussion
 
+Hier ist noch ein Teil der Diskussion. Der hilft den Kontext zu setzen.
+
 Hier findet eine Diskussion der Ergebnisse statt. Dies soll den Lesenden helfen, die Ergebnisse in Kontext zu setzen und Limitationen der Studie zu kommunizieren.
