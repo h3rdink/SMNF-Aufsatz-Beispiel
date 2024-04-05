@@ -31,7 +31,7 @@ The `echo: false` option disables the printing of code (only output is displayed
 
 ## Diskussion
 
-Hier ist noch ein einleitender Teil der Diskussion. Ich habe leider den vorherigen Teil noch nicht gepullt.
+Hier ist noch ein einleitender Teil der Diskussion, denn ich möchte doch lieber noch ein bisschen was vorweg schreiben.
 
 Hier ist noch ein Teil der Diskussion. Der hilft den Kontext zu setzen.
 
