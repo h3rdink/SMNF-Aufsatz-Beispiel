@@ -1,38 +1,25 @@
 ---
-title: "abstract"
+# Kommentar in YAML
+title: "Untersuchung von XY"
+author: "Eike Meier"
 format: pdf
-editor: visual
 ---
+<!-- Kommentar in Markdown -->
+## Code of Conduct
+Wir, [Namen], verpflichten uns ...
 
-## Einleitung
+# Einleitung
+Beginn der Einleitung ...
 
-Hier steht eine tolle Einleitung. Diese dient dazu, dass die Lesenden den Kontext der Arbeit und die Motivation verstehen.
+# Methode
+Beginn des Methodenteils ...
 
-## Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
+# Ergebnisse
 ```{r}
-1 + 1
+# Kommentar in Code-Block
+a <- 1+1
+b <- 5
+a*b
 ```
 
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
-
-## Diskussion
-
-Hier ist noch ein einleitender Teil der Diskussion, denn ich möchte doch lieber noch ein bisschen was vorweg schreiben.
-
-Hier ist noch ein Teil der Diskussion. Der hilft den Kontext zu setzen.
-
-Hier findet eine Diskussion der Ergebnisse statt. Dies soll den Lesenden helfen, die Ergebnisse in Kontext zu setzen und Limitationen der Studie zu kommunizieren.
+# Diskussion

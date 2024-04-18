@@ -1,0 +1,132 @@
+---
+# Geben Sie dem Extended Abstract (EA) eine knappe Überschrift, die die zentralen Punkte der Arbeit zusammenfasst."
+title: "Untersuchung von XY"
+# Wenn Ihre Arbeit eine zusätzliche Ebene hat, die Spezifizierung benötigt (z.B. besondere Methodik, Klärung des Forschungsfokus, besondere Zielgruppe), kann ein Untertitel sinnvoll sein. Untertitel sollten allerdings nur mit guter Begründung verwendet werden.
+subtitle: "Eine Mixed-Methods Studie"
+
+# Alle an der Erstellung des EA beteiligten Autor*innen
+author: 
+  - André Calero Valdez
+  - Lilian Kojan
+  - Hendrik Nunner
+  - Leonard Stellbrink
+  
+affiliation: "Universität Musterstadt"  
+
+# Das Erstellungsdatum
+date: "`r Sys.Date()`"
+
+# Zitationen
+bibliography: references.bib
+csl: apa7.csl
+
+# Ausgabeformat
+format: 
+  html:
+    code-fold: true
+  pdf: default
+  
+# Format für die Generierung von PDFs
+papersize: "a4paper"
+
+# Schriftgröße
+fontsize: 12pt
+
+# Nummerierung der Abschnitte
+number-sections: true
+---
+
+**GitHub Repository:** https://github.com/ihr_name/ihr_repo  
+**Für die Abgabe aktueller GitHub Hash:** SOME_HASH
+
+<!-- Code of Conduct -->
+## Code of Conduct {.unnumbered}
+
+Der Code of Conduct (CoC) definiert die Verhaltenserwartungen innerhalb ihrer Arbeitsgruppe. Der CoC sollte folgende Punkte umfassen:
+
+- Umgang mit Feedback, unterschiedlichen Perspektiven und Meinungsverschiedenheiten.
+- Aufteilung der Arbeitlast.
+- Verhalten in Bezug auf vereinbarte und verpflichtende Termine.
+- Einhaltung der wissenschaftlichen Integrität (siehe Folien zu Seminar 2).
+- Verpflichtung zum Schutz von Daten und zur Wahrung ihrer Vertraulichkeit.
+
+
+<!-- Einleitung -->
+# Einleitung
+
+Aufgabe 2 hinzufügen
+
+## Forschungsfragen
+
+Aufgabe 1 hinzufügen
+
+
+<!-- Methode -->
+# Methode
+
+## Stichprobe
+
+Teile von Aufgabe 5 hinzufügen
+
+
+<!-- Ergebnisse -->
+# Ergebnisse
+
+Aufgabe 5
+
+## Forschungsfrage 1
+
+### Voraussetzungen
+
+Beschreibt inwiefern die statistische Voraussetzung erfüllt oder nicht erfüllt werden.
+
+```{r assumptions_rq1, echo=FALSE}
+# Hier könnten Sie die jeweilige Berechnungen hinzufügen oder als in-line code bearbeiten. 
+```
+
+### Statistischer Test
+
+Berichtet hier die wichtigsten Kennzahlen des Tests.
+
+```{r tests_rq1, echo=FALSE}
+# Hier könnten Sie die jeweilige Berechnungen hinzufügen oder als in-line code bearbeiten. 
+```
+
+
+<!-- Diskussion -->
+# Diskussion
+
+## Zusammenfassung
+
+Kurze Zusammenfassung der Ergebnisse und Bezug zu Forschungsfragen.
+
+## Limitationen
+
+Kurz auf Einschränkungen der Ergebnisse eingehen.
+
+## Implikationen
+
+Warum die Forschung wichtig ist und welche Rolle die Ergebnisse spielen.
+
+
+<!-- Fazit -->
+# Fazit
+
+Take-Home Message oder ein wichtiger Punkt aus der Einleitung.
+
+
+<!-- Literaturverzeichnis -->
+# Literaturverzeichnis
+
+::: {#refs}
+:::
+
+
+<!-- Anhänge -->
+# Anhang 1- Rekrutierungstext
+
+Aufgabe 3
+
+# Anhang 2 - Fragebögen
+
+Aufgabe 4
