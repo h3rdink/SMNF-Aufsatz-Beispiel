@@ -54,7 +54,7 @@ Der Code of Conduct (CoC) definiert die Verhaltenserwartungen innerhalb ihrer Ar
 <!-- Einleitung -->
 # Einleitung
 
-Aufgabe 2 hinzufügen
+Aufgabe 2 hinzufügen. Irgendjemand behauptet etwas ganz wichtiges [@singh2017long].
 
 ## Forschungsfragen
 
@@ -80,17 +80,26 @@ Aufgabe 5
 
 Beschreibt inwiefern die statistische Voraussetzung erfüllt oder nicht erfüllt werden.
 
-```{r assumptions_rq1, echo=FALSE}
-# Hier könnten Sie die jeweilige Berechnungen hinzufügen oder als in-line code bearbeiten. 
+```{r}
+#| echo: false
+ati <- read.csv("mturk_data.csv")
+ati$ati_sum <- ati$ati01 + ati$ati02 + ati$ati03R + ati$ati04 + ati$ati05 + ati$ati06R + ati$ati07 + ati$ati08R + ati$ati09
+ati_young <- ati[ati$age < median(ati$age), ]
+ati_old <- ati[ati$age >= median(ati$age), ]
+ati_young_mean <- mean(ati_young$ati_sum)
+ati_old_mean <- mean(ati_old$ati_sum)
+
+ati_young_mean_direct <- mean(ati_young$ati_mean)
+ati_old_mean_direct <- mean(ati_old$ati_mean)
 ```
+Der durchschnittle Wert für young beträgt `r ati_young_mean`, der für old `r ati_old_mean`.
+
+Der durchschnittle Wert für young beträgt `r ati_young_mean_direct`, der für old `r ati_old_mean_direct`.
 
 ### Statistischer Test
 
 Berichtet hier die wichtigsten Kennzahlen des Tests.
 
-```{r tests_rq1, echo=FALSE}
-# Hier könnten Sie die jeweilige Berechnungen hinzufügen oder als in-line code bearbeiten. 
-```
 
 
 <!-- Diskussion -->
